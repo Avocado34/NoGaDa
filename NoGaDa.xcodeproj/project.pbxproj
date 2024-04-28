@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C5150819556110E4C9FD4A4 /* Pods_NoGaDa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4102AB51B143615D98392DD /* Pods_NoGaDa.framework */; };
+		28E57F06CC3B40D8B4CE254E /* Pods_NoGaDa_NoGaDaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E70AA12121801B0261982F /* Pods_NoGaDa_NoGaDaUITests.framework */; };
+		440E7567FCCACF2092B71298 /* Pods_NoGaDa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED29020AA96DB559BF77A898 /* Pods_NoGaDa.framework */; };
 		491A6D062707026C00E41D5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 491A6D082707026C00E41D5B /* InfoPlist.strings */; };
 		491C19C1271D89FD00D4DEB9 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491C19C0271D89FD00D4DEB9 /* MainViewModel.swift */; };
 		493576BF26F70419008CB6DA /* PopUpArchiveFolderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493576BD26F70419008CB6DA /* PopUpArchiveFolderTableViewCell.swift */; };
@@ -56,9 +57,8 @@
 		49C6DC75270372F40094403B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6DC74270372F40094403B /* SettingViewController.swift */; };
 		49C6DC7A270381910094403B /* SettingItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6DC78270381910094403B /* SettingItemTableViewCell.swift */; };
 		49C6DC7B270381910094403B /* SettingItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C6DC79270381910094403B /* SettingItemTableViewCell.xib */; };
-		49C6DC7D270382620094403B /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C6DC7C270382620094403B /* SettingItem.swift */; };
 		49D1D6AE26FC686D0024C5F9 /* KaraokeBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1D6AD26FC686D0024C5F9 /* KaraokeBrand.swift */; };
-		49D1D6B026FC689D0024C5F9 /* KaraokeAPIErrMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1D6AF26FC689D0024C5F9 /* KaraokeAPIErrMessage.swift */; };
+		49D1D6B026FC689D0024C5F9 /* KaraokeAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1D6AF26FC689D0024C5F9 /* KaraokeAPIError.swift */; };
 		49D1D6B226FC68F30024C5F9 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1D6B126FC68F30024C5F9 /* Song.swift */; };
 		49D1D6B426FC69660024C5F9 /* KaraokeAPIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1D6B326FC69660024C5F9 /* KaraokeAPIPath.swift */; };
 		49D1D6B626FC69770024C5F9 /* ArchiveSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D1D6B526FC69770024C5F9 /* ArchiveSong.swift */; };
@@ -76,6 +76,8 @@
 		8E25076428D1EB3300756AB1 /* SearchFilterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E25076328D1EB3300756AB1 /* SearchFilterTableViewCell.xib */; };
 		8E25076628D1EB3F00756AB1 /* SearchFilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E25076528D1EB3F00756AB1 /* SearchFilterTableViewCell.swift */; };
 		8E25076828D1ED3400756AB1 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E25076728D1ED3400756AB1 /* SettingViewModel.swift */; };
+		8E29D93A2AA60D4E002702AC /* UIViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E29D9392AA60D4E002702AC /* UIViewController+Preview.swift */; };
+		8E29D93C2AA60DC0002702AC /* UIView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E29D93B2AA60DC0002702AC /* UIView+Preview.swift */; };
 		8E33F3F828546F7000B6E6EE /* ViewModelInjectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33F3F728546F7000B6E6EE /* ViewModelInjectable.swift */; };
 		8E33F3FB28547C7200B6E6EE /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33F3FA28547C7200B6E6EE /* R.generated.swift */; };
 		8E33F3FD2854978D00B6E6EE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E33F3FC2854978D00B6E6EE /* BaseViewController.swift */; };
@@ -86,6 +88,10 @@
 		8E3CE86D28B251A100C3DD27 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CE86C28B251A100C3DD27 /* ViewModelType.swift */; };
 		8E3CE87128B26CC700C3DD27 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CE87028B26CC700C3DD27 /* UIViewController+Rx.swift */; };
 		8E3CE87328B2776F00C3DD27 /* BISegmentedControl+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3CE87228B2776F00C3DD27 /* BISegmentedControl+Rx.swift */; };
+		8E5580322AC50198008A76F6 /* SettingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5580312AC50198008A76F6 /* SettingAction.swift */; };
+		8E5580342AC501A6008A76F6 /* CreditAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5580332AC501A6008A76F6 /* CreditAction.swift */; };
+		8E5580362AC501BD008A76F6 /* BugReportAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5580352AC501BD008A76F6 /* BugReportAction.swift */; };
+		8E5580382AC501DE008A76F6 /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5580372AC501DE008A76F6 /* SettingItem.swift */; };
 		8E661B7628D82D8E006D9116 /* Number+FloatType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E661B7528D82D8E006D9116 /* Number+FloatType.swift */; };
 		8E6C95DE276797D100667C01 /* PopUpSongOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C95DD276797D100667C01 /* PopUpSongOptionViewController.swift */; };
 		8E6C95E027679BB400667C01 /* SongOptionFloatingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C95DF27679BB400667C01 /* SongOptionFloatingPanelView.swift */; };
@@ -120,8 +126,7 @@
 		8EFA4D7F2784B074009A8256 /* KaraokeBrandPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA4D7E2784B074009A8256 /* KaraokeBrandPickerViewModel.swift */; };
 		8EFA4D8F2786C589009A8256 /* KaraokeBrandPickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA4D8D2786C589009A8256 /* KaraokeBrandPickerTableViewCell.swift */; };
 		8EFA4D902786C589009A8256 /* KaraokeBrandPickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFA4D8E2786C589009A8256 /* KaraokeBrandPickerTableViewCell.xib */; };
-		98C36B12F79286D555375451 /* Pods_NoGaDaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE16EEE7308A04079100A207 /* Pods_NoGaDaTests.framework */; };
-		C051DEA605203ABC36409CDA /* Pods_NoGaDa_NoGaDaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FEE5C8C410A155C6EF96951 /* Pods_NoGaDa_NoGaDaUITests.framework */; };
+		C5BBCCB9E49B11C91A7EE268 /* Pods_NoGaDaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 482D941B98F7230908A36AC2 /* Pods_NoGaDaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,13 +147,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07CAA96E8400BBB75B6643F2 /* Pods-NoGaDa-NoGaDaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDa-NoGaDaUITests.release.xcconfig"; path = "Target Support Files/Pods-NoGaDa-NoGaDaUITests/Pods-NoGaDa-NoGaDaUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2DBEC17980675F5034B39413 /* Pods-NoGaDa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDa.debug.xcconfig"; path = "Target Support Files/Pods-NoGaDa/Pods-NoGaDa.debug.xcconfig"; sourceTree = "<group>"; };
-		3FEE5C8C410A155C6EF96951 /* Pods_NoGaDa_NoGaDaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoGaDa_NoGaDaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		482D941B98F7230908A36AC2 /* Pods_NoGaDaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoGaDaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		491A6D022707021600E41D5B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 		491A6D032707021600E41D5B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		491A6D072707026C00E41D5B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		491A6D092707027000E41D5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		491C19C0271D89FD00D4DEB9 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		493576BD26F70419008CB6DA /* PopUpArchiveFolderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpArchiveFolderTableViewCell.swift; sourceTree = "<group>"; };
 		493576BE26F70419008CB6DA /* PopUpArchiveFolderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpArchiveFolderTableViewCell.xib; sourceTree = "<group>"; };
@@ -202,9 +204,8 @@
 		49C6DC74270372F40094403B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		49C6DC78270381910094403B /* SettingItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItemTableViewCell.swift; sourceTree = "<group>"; };
 		49C6DC79270381910094403B /* SettingItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingItemTableViewCell.xib; sourceTree = "<group>"; };
-		49C6DC7C270382620094403B /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
 		49D1D6AD26FC686D0024C5F9 /* KaraokeBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeBrand.swift; sourceTree = "<group>"; };
-		49D1D6AF26FC689D0024C5F9 /* KaraokeAPIErrMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeAPIErrMessage.swift; sourceTree = "<group>"; };
+		49D1D6AF26FC689D0024C5F9 /* KaraokeAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeAPIError.swift; sourceTree = "<group>"; };
 		49D1D6B126FC68F30024C5F9 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		49D1D6B326FC69660024C5F9 /* KaraokeAPIPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeAPIPath.swift; sourceTree = "<group>"; };
 		49D1D6B526FC69770024C5F9 /* ArchiveSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveSong.swift; sourceTree = "<group>"; };
@@ -214,8 +215,8 @@
 		49D4CD4E26F9E5ED000D2E28 /* PopOverSearchFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverSearchFilterViewController.swift; sourceTree = "<group>"; };
 		49E6EB5A270E0F3200610383 /* AdMobManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMobManager.swift; sourceTree = "<group>"; };
 		49FB0D0927038DED00AE3A9F /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
-		77831074813A4D362C38F4BB /* Pods-NoGaDaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDaTests.debug.xcconfig"; path = "Target Support Files/Pods-NoGaDaTests/Pods-NoGaDaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		856F694A7C3BFF36184C7997 /* Pods-NoGaDa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDa.release.xcconfig"; path = "Target Support Files/Pods-NoGaDa/Pods-NoGaDa.release.xcconfig"; sourceTree = "<group>"; };
+		56E70AA12121801B0261982F /* Pods_NoGaDa_NoGaDaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoGaDa_NoGaDaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A8F103C3211F845DF92F67 /* Pods-NoGaDaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDaTests.release.xcconfig"; path = "Target Support Files/Pods-NoGaDaTests/Pods-NoGaDaTests.release.xcconfig"; sourceTree = "<group>"; };
 		8E03595C27D799B9006A77CA /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		8E03596027D79F43006A77CA /* Archive.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Archive.storyboard; sourceTree = "<group>"; };
 		8E03596227D79F8C006A77CA /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
@@ -224,6 +225,8 @@
 		8E25076328D1EB3300756AB1 /* SearchFilterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchFilterTableViewCell.xib; sourceTree = "<group>"; };
 		8E25076528D1EB3F00756AB1 /* SearchFilterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFilterTableViewCell.swift; sourceTree = "<group>"; };
 		8E25076728D1ED3400756AB1 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		8E29D9392AA60D4E002702AC /* UIViewController+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Preview.swift"; sourceTree = "<group>"; };
+		8E29D93B2AA60DC0002702AC /* UIView+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Preview.swift"; sourceTree = "<group>"; };
 		8E33F3F728546F7000B6E6EE /* ViewModelInjectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelInjectable.swift; sourceTree = "<group>"; };
 		8E33F3FA28547C7200B6E6EE /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		8E33F3FC2854978D00B6E6EE /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -233,6 +236,10 @@
 		8E3CE86C28B251A100C3DD27 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		8E3CE87028B26CC700C3DD27 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Rx.swift"; sourceTree = "<group>"; };
 		8E3CE87228B2776F00C3DD27 /* BISegmentedControl+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BISegmentedControl+Rx.swift"; sourceTree = "<group>"; };
+		8E5580312AC50198008A76F6 /* SettingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingAction.swift; sourceTree = "<group>"; };
+		8E5580332AC501A6008A76F6 /* CreditAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditAction.swift; sourceTree = "<group>"; };
+		8E5580352AC501BD008A76F6 /* BugReportAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugReportAction.swift; sourceTree = "<group>"; };
+		8E5580372AC501DE008A76F6 /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
 		8E661B7528D82D8E006D9116 /* Number+FloatType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number+FloatType.swift"; sourceTree = "<group>"; };
 		8E6C95DD276797D100667C01 /* PopUpSongOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpSongOptionViewController.swift; sourceTree = "<group>"; };
 		8E6C95DF27679BB400667C01 /* SongOptionFloatingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongOptionFloatingPanelView.swift; sourceTree = "<group>"; };
@@ -263,14 +270,16 @@
 		8EAEBD2929D315A600FA51A4 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		8EAEBD2B29D315C300FA51A4 /* UserDefaults+PropertyWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefaults+PropertyWrapper.swift"; sourceTree = "<group>"; };
 		8EB6ACFC2900465400076C25 /* String+KoreanPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+KoreanPolicy.swift"; sourceTree = "<group>"; };
+		8EDD48E3FA4AB39CF4E6801B /* Pods-NoGaDa-NoGaDaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDa-NoGaDaUITests.release.xcconfig"; path = "Target Support Files/Pods-NoGaDa-NoGaDaUITests/Pods-NoGaDa-NoGaDaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8EFA4D7C2784B015009A8256 /* KaraokeBrandPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeBrandPickerViewController.swift; sourceTree = "<group>"; };
 		8EFA4D7E2784B074009A8256 /* KaraokeBrandPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeBrandPickerViewModel.swift; sourceTree = "<group>"; };
 		8EFA4D8D2786C589009A8256 /* KaraokeBrandPickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaraokeBrandPickerTableViewCell.swift; sourceTree = "<group>"; };
 		8EFA4D8E2786C589009A8256 /* KaraokeBrandPickerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KaraokeBrandPickerTableViewCell.xib; sourceTree = "<group>"; };
-		AE16EEE7308A04079100A207 /* Pods_NoGaDaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoGaDaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E660BC963D3A9F849EF3D16D /* Pods-NoGaDa-NoGaDaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDa-NoGaDaUITests.debug.xcconfig"; path = "Target Support Files/Pods-NoGaDa-NoGaDaUITests/Pods-NoGaDa-NoGaDaUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4102AB51B143615D98392DD /* Pods_NoGaDa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoGaDa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD2F15E8AE44AF844AF0DADA /* Pods-NoGaDaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDaTests.release.xcconfig"; path = "Target Support Files/Pods-NoGaDaTests/Pods-NoGaDaTests.release.xcconfig"; sourceTree = "<group>"; };
+		9521CAEC69B9E0095EAB1B1E /* Pods-NoGaDa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDa.debug.xcconfig"; path = "Target Support Files/Pods-NoGaDa/Pods-NoGaDa.debug.xcconfig"; sourceTree = "<group>"; };
+		A3929264DF3814E0500FBE36 /* Pods-NoGaDa-NoGaDaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDa-NoGaDaUITests.debug.xcconfig"; path = "Target Support Files/Pods-NoGaDa-NoGaDaUITests/Pods-NoGaDa-NoGaDaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFEFBE7A7ABDB9555FE481FC /* Pods-NoGaDaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDaTests.debug.xcconfig"; path = "Target Support Files/Pods-NoGaDaTests/Pods-NoGaDaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB712B0D329CB36166CBB442 /* Pods-NoGaDa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoGaDa.release.xcconfig"; path = "Target Support Files/Pods-NoGaDa/Pods-NoGaDa.release.xcconfig"; sourceTree = "<group>"; };
+		ED29020AA96DB559BF77A898 /* Pods_NoGaDa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoGaDa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,7 +287,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5150819556110E4C9FD4A4 /* Pods_NoGaDa.framework in Frameworks */,
+				440E7567FCCACF2092B71298 /* Pods_NoGaDa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +295,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98C36B12F79286D555375451 /* Pods_NoGaDaTests.framework in Frameworks */,
+				C5BBCCB9E49B11C91A7EE268 /* Pods_NoGaDaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +303,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C051DEA605203ABC36409CDA /* Pods_NoGaDa_NoGaDaUITests.framework in Frameworks */,
+				28E57F06CC3B40D8B4CE254E /* Pods_NoGaDa_NoGaDaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +345,7 @@
 				4956CE4526F467060007523B /* NoGaDaUITests */,
 				4956CE2226F467040007523B /* Products */,
 				92EF67CED36C18763E116A46 /* Pods */,
-				EAC2D702DC0301D378C46CEA /* Frameworks */,
+				5F9EB3087905F3F2CE1928D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -415,7 +424,7 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		4956CE5526F469F00007523B /* Views */ = {
+		4956CE5526F469F00007523B /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				493BCBF226F642630096422A /* EmojiTextField.swift */,
@@ -426,23 +435,19 @@
 				8E6C95DF27679BB400667C01 /* SongOptionFloatingPanelView.swift */,
 				8E79DC4028BB73B0000B4874 /* AnimateButton.swift */,
 				8E79DC4428BB7858000B4874 /* AnimateView.swift */,
-				4956CE5426F469E30007523B /* ViewControllers */,
 				493BCBE126F4BAC00096422A /* Cells */,
-				4956CE5726F469FA0007523B /* Storyboards */,
 				8E6C95E32767A90200667C01 /* FloatingPanelLayouts */,
 			);
-			path = Views;
+			path = Components;
 			sourceTree = "<group>";
 		};
 		4956CE5626F469F30007523B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8E5580302AC5018F008A76F6 /* Settings */,
 				49D4CD4C26F9E448000D2E28 /* SearchFilterItem.swift */,
-				49C6DC7C270382620094403B /* SettingItem.swift */,
 				49D1D6AD26FC686D0024C5F9 /* KaraokeBrand.swift */,
-				49D1D6AF26FC689D0024C5F9 /* KaraokeAPIErrMessage.swift */,
 				49D1D6B126FC68F30024C5F9 /* Song.swift */,
-				49D1D6B326FC69660024C5F9 /* KaraokeAPIPath.swift */,
 				49D1D6B526FC69770024C5F9 /* ArchiveSong.swift */,
 				49D1D6B726FC6C0E0024C5F9 /* ArchiveFolder.swift */,
 				4997CFD6270471CB005F0D85 /* ResourceItem.swift */,
@@ -468,7 +473,6 @@
 		4989A72426F8862A00A98B63 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				4989A72526F8863C00A98B63 /* KaraokeApiService.swift */,
 				49D1D6BB26FC70720024C5F9 /* SongFolderManager.swift */,
 				49E6EB5A270E0F3200610383 /* AdMobManager.swift */,
 				4953343A271204C4003F64DE /* SearchHistoryManager.swift */,
@@ -478,6 +482,16 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		5F9EB3087905F3F2CE1928D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED29020AA96DB559BF77A898 /* Pods_NoGaDa.framework */,
+				56E70AA12121801B0261982F /* Pods_NoGaDa_NoGaDaUITests.framework */,
+				482D941B98F7230908A36AC2 /* Pods_NoGaDaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E3CE86F28B26CA700C3DD27 /* Rx */ = {
 			isa = PBXGroup;
 			children = (
@@ -485,6 +499,36 @@
 				8E3CE87228B2776F00C3DD27 /* BISegmentedControl+Rx.swift */,
 			);
 			path = Rx;
+			sourceTree = "<group>";
+		};
+		8E55802A2AC4EB1C008A76F6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4956CE2426F467040007523B /* AppDelegate.swift */,
+				4956CE2626F467040007523B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8E55802B2AC4EB4A008A76F6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				49D1D6AF26FC689D0024C5F9 /* KaraokeAPIError.swift */,
+				49D1D6B326FC69660024C5F9 /* KaraokeAPIPath.swift */,
+				4989A72526F8863C00A98B63 /* KaraokeApiService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8E5580302AC5018F008A76F6 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8E5580312AC50198008A76F6 /* SettingAction.swift */,
+				8E5580332AC501A6008A76F6 /* CreditAction.swift */,
+				8E5580352AC501BD008A76F6 /* BugReportAction.swift */,
+				8E5580372AC501DE008A76F6 /* SettingItem.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		8E6C95E32767A90200667C01 /* FloatingPanelLayouts */ = {
@@ -499,13 +543,14 @@
 		8EF050072826D7BF00166223 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4956CE2426F467040007523B /* AppDelegate.swift */,
-				4956CE2626F467040007523B /* SceneDelegate.swift */,
+				8E55802A2AC4EB1C008A76F6 /* Application */,
+				8E55802B2AC4EB4A008A76F6 /* Networking */,
 				4989A72426F8862A00A98B63 /* Managers */,
 				4956CE5626F469F30007523B /* Models */,
-				4956CE5526F469F00007523B /* Views */,
+				4956CE5426F469E30007523B /* ViewControllers */,
+				4956CE5726F469FA0007523B /* Storyboards */,
+				4956CE5526F469F00007523B /* Components */,
 				8EF0500A2826D82F00166223 /* Utils */,
-				8E3CE86F28B26CA700C3DD27 /* Rx */,
 				8EF050092826D7E600166223 /* SupportingFiles */,
 			);
 			path = Sources;
@@ -550,6 +595,9 @@
 				8EB6ACFC2900465400076C25 /* String+KoreanPolicy.swift */,
 				8E3BF02229BEF90D007EB57A /* NotificaitonName+Default.swift */,
 				8EAEBD2B29D315C300FA51A4 /* UserDefaults+PropertyWrapper.swift */,
+				8E29D9392AA60D4E002702AC /* UIViewController+Preview.swift */,
+				8E29D93B2AA60DC0002702AC /* UIView+Preview.swift */,
+				8E3CE86F28B26CA700C3DD27 /* Rx */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -557,24 +605,14 @@
 		92EF67CED36C18763E116A46 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2DBEC17980675F5034B39413 /* Pods-NoGaDa.debug.xcconfig */,
-				856F694A7C3BFF36184C7997 /* Pods-NoGaDa.release.xcconfig */,
-				E660BC963D3A9F849EF3D16D /* Pods-NoGaDa-NoGaDaUITests.debug.xcconfig */,
-				07CAA96E8400BBB75B6643F2 /* Pods-NoGaDa-NoGaDaUITests.release.xcconfig */,
-				77831074813A4D362C38F4BB /* Pods-NoGaDaTests.debug.xcconfig */,
-				FD2F15E8AE44AF844AF0DADA /* Pods-NoGaDaTests.release.xcconfig */,
+				9521CAEC69B9E0095EAB1B1E /* Pods-NoGaDa.debug.xcconfig */,
+				DB712B0D329CB36166CBB442 /* Pods-NoGaDa.release.xcconfig */,
+				A3929264DF3814E0500FBE36 /* Pods-NoGaDa-NoGaDaUITests.debug.xcconfig */,
+				8EDD48E3FA4AB39CF4E6801B /* Pods-NoGaDa-NoGaDaUITests.release.xcconfig */,
+				CFEFBE7A7ABDB9555FE481FC /* Pods-NoGaDaTests.debug.xcconfig */,
+				63A8F103C3211F845DF92F67 /* Pods-NoGaDaTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		EAC2D702DC0301D378C46CEA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F4102AB51B143615D98392DD /* Pods_NoGaDa.framework */,
-				3FEE5C8C410A155C6EF96951 /* Pods_NoGaDa_NoGaDaUITests.framework */,
-				AE16EEE7308A04079100A207 /* Pods_NoGaDaTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -584,12 +622,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4956CE4B26F467060007523B /* Build configuration list for PBXNativeTarget "NoGaDa" */;
 			buildPhases = (
-				A9B98DCE2D1FAA1FC1182517 /* [CP] Check Pods Manifest.lock */,
+				C3FD6B5A879B85C64D7F7DA3 /* [CP] Check Pods Manifest.lock */,
 				8E33F3F928547C0E00B6E6EE /* R.Swift */,
 				4956CE1D26F467040007523B /* Sources */,
 				4956CE1E26F467040007523B /* Frameworks */,
 				4956CE1F26F467040007523B /* Resources */,
-				27383498E8380C2732F5DA26 /* [CP] Embed Pods Frameworks */,
+				1BE331F452DAC3FBFEB59532 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -604,7 +642,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4956CE4E26F467060007523B /* Build configuration list for PBXNativeTarget "NoGaDaTests" */;
 			buildPhases = (
-				92BB2438C28EE87DFF79B8F4 /* [CP] Check Pods Manifest.lock */,
+				9CAF750E0310239E50C23222 /* [CP] Check Pods Manifest.lock */,
 				4956CE3326F467060007523B /* Sources */,
 				4956CE3426F467060007523B /* Frameworks */,
 				4956CE3526F467060007523B /* Resources */,
@@ -623,11 +661,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4956CE5126F467060007523B /* Build configuration list for PBXNativeTarget "NoGaDaUITests" */;
 			buildPhases = (
-				F37533C4014B83B48546D85F /* [CP] Check Pods Manifest.lock */,
+				E03EBC7E1A497A4990A651B7 /* [CP] Check Pods Manifest.lock */,
 				4956CE3E26F467060007523B /* Sources */,
 				4956CE3F26F467060007523B /* Frameworks */,
 				4956CE4026F467060007523B /* Resources */,
-				8607F7F6F040D44B73A88D05 /* [CP] Embed Pods Frameworks */,
+				25E1E0E4FDD5E98A4C9047A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -663,10 +701,9 @@
 			};
 			buildConfigurationList = 4956CE1C26F467040007523B /* Build configuration list for PBXProject "NoGaDa" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 				ko,
 			);
@@ -725,7 +762,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		27383498E8380C2732F5DA26 /* [CP] Embed Pods Frameworks */ = {
+		1BE331F452DAC3FBFEB59532 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -742,7 +779,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NoGaDa/Pods-NoGaDa-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8607F7F6F040D44B73A88D05 /* [CP] Embed Pods Frameworks */ = {
+		25E1E0E4FDD5E98A4C9047A8 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -773,12 +810,13 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				$SRCROOT/R.generated.swift,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
 		};
-		92BB2438C28EE87DFF79B8F4 /* [CP] Check Pods Manifest.lock */ = {
+		9CAF750E0310239E50C23222 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -800,7 +838,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A9B98DCE2D1FAA1FC1182517 /* [CP] Check Pods Manifest.lock */ = {
+		C3FD6B5A879B85C64D7F7DA3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -822,7 +860,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F37533C4014B83B48546D85F /* [CP] Check Pods Manifest.lock */ = {
+		E03EBC7E1A497A4990A651B7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -853,15 +891,19 @@
 			files = (
 				8E79DC4928BDF1D8000B4874 /* SplashViewController.swift in Sources */,
 				8E98D78A2826DD000056CED4 /* UIView+Decorate.swift in Sources */,
+				8E29D93C2AA60DC0002702AC /* UIView+Preview.swift in Sources */,
+				8E5580342AC501A6008A76F6 /* CreditAction.swift in Sources */,
 				4992C7642721B86F006045FF /* PopUpArchiveFolderViewModel.swift in Sources */,
 				493BCBE526F4BAEF0096422A /* FolderTableViewCell.swift in Sources */,
 				495334332711DE4B003F64DE /* SearchHistoryViewController.swift in Sources */,
 				8E79DC4128BB73B0000B4874 /* AnimateButton.swift in Sources */,
+				8E5580362AC501BD008A76F6 /* BugReportAction.swift in Sources */,
 				4956CE6126F494870007523B /* ArchiveSongViewController.swift in Sources */,
 				8E33F3FB28547C7200B6E6EE /* R.generated.swift in Sources */,
 				8E6C95E62767B18500667C01 /* PopUpSongOptionTableViewCell.swift in Sources */,
 				8E703934275FECE3001D10A6 /* CreditViewModel.swift in Sources */,
 				493BCBEA26F4CEA10096422A /* SongTableViewCell.swift in Sources */,
+				8E5580322AC50198008A76F6 /* SettingAction.swift in Sources */,
 				4953343B271204C4003F64DE /* SearchHistoryManager.swift in Sources */,
 				8E6C95DE276797D100667C01 /* PopUpSongOptionViewController.swift in Sources */,
 				8E6C95E22767A8F900667C01 /* SongOptionFloatingPanelLayout.swift in Sources */,
@@ -896,9 +938,10 @@
 				4956CE2526F467040007523B /* AppDelegate.swift in Sources */,
 				8E98D77D2826DB380056CED4 /* UILabel+AccentColor.swift in Sources */,
 				4956CE6326F494990007523B /* AddFolderViewController.swift in Sources */,
+				8E5580382AC501DE008A76F6 /* SettingItem.swift in Sources */,
 				8E3CE86D28B251A100C3DD27 /* ViewModelType.swift in Sources */,
 				49D1D6B826FC6C0E0024C5F9 /* ArchiveFolder.swift in Sources */,
-				49D1D6B026FC689D0024C5F9 /* KaraokeAPIErrMessage.swift in Sources */,
+				49D1D6B026FC689D0024C5F9 /* KaraokeAPIError.swift in Sources */,
 				8E33F3FD2854978D00B6E6EE /* BaseViewController.swift in Sources */,
 				8E98D7792826DAED0056CED4 /* UIScrollView+ScrollToTop.swift in Sources */,
 				8EAEBD2C29D315C300FA51A4 /* UserDefaults+PropertyWrapper.swift in Sources */,
@@ -917,11 +960,11 @@
 				4956CE2726F467040007523B /* SceneDelegate.swift in Sources */,
 				49D1D6B426FC69660024C5F9 /* KaraokeAPIPath.swift in Sources */,
 				8EFA4D7F2784B074009A8256 /* KaraokeBrandPickerViewModel.swift in Sources */,
-				49C6DC7D270382620094403B /* SettingItem.swift in Sources */,
 				495334362711FE75003F64DE /* SearchHistoryTableViewCell.swift in Sources */,
 				4953343F2712C503003F64DE /* SearchHistory.swift in Sources */,
 				49C6DC75270372F40094403B /* SettingViewController.swift in Sources */,
 				49484D022720B6D500EC12B3 /* ArchiveFolderViewModel.swift in Sources */,
+				8E29D93A2AA60D4E002702AC /* UIViewController+Preview.swift in Sources */,
 				8EB6ACFD2900465400076C25 /* String+KoreanPolicy.swift in Sources */,
 				8E25076628D1EB3F00756AB1 /* SearchFilterTableViewCell.swift in Sources */,
 				8E3CE87128B26CC700C3DD27 /* UIViewController+Rx.swift in Sources */,
@@ -982,7 +1025,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				491A6D072707026C00E41D5B /* ko */,
-				491A6D092707027000E41D5B /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1128,7 +1170,7 @@
 		};
 		4956CE4C26F467060007523B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DBEC17980675F5034B39413 /* Pods-NoGaDa.debug.xcconfig */;
+			baseConfigurationReference = 9521CAEC69B9E0095EAB1B1E /* Pods-NoGaDa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1141,7 +1183,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.2;
+				MARKETING_VERSION = 1.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MuffinLabs.NoGaDa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1151,7 +1193,7 @@
 		};
 		4956CE4D26F467060007523B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 856F694A7C3BFF36184C7997 /* Pods-NoGaDa.release.xcconfig */;
+			baseConfigurationReference = DB712B0D329CB36166CBB442 /* Pods-NoGaDa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1164,7 +1206,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.2;
+				MARKETING_VERSION = 1.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MuffinLabs.NoGaDa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1174,7 +1216,7 @@
 		};
 		4956CE4F26F467060007523B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77831074813A4D362C38F4BB /* Pods-NoGaDaTests.debug.xcconfig */;
+			baseConfigurationReference = CFEFBE7A7ABDB9555FE481FC /* Pods-NoGaDaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1197,7 +1239,7 @@
 		};
 		4956CE5026F467060007523B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD2F15E8AE44AF844AF0DADA /* Pods-NoGaDaTests.release.xcconfig */;
+			baseConfigurationReference = 63A8F103C3211F845DF92F67 /* Pods-NoGaDaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1220,7 +1262,7 @@
 		};
 		4956CE5226F467060007523B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E660BC963D3A9F849EF3D16D /* Pods-NoGaDa-NoGaDaUITests.debug.xcconfig */;
+			baseConfigurationReference = A3929264DF3814E0500FBE36 /* Pods-NoGaDa-NoGaDaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1241,7 +1283,7 @@
 		};
 		4956CE5326F467060007523B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07CAA96E8400BBB75B6643F2 /* Pods-NoGaDa-NoGaDaUITests.release.xcconfig */;
+			baseConfigurationReference = 8EDD48E3FA4AB39CF4E6801B /* Pods-NoGaDa-NoGaDaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

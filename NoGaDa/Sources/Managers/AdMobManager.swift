@@ -11,12 +11,13 @@ import GoogleMobileAds
 import RxSwift
 import RxCocoa
 
+
 enum AdMobUnitID {
   static let testInterstitial = "ca-app-pub-3940256099942544/4411468910"
   static let initialAd = "ca-app-pub-3998172297943713/4233053278"
 }
 
-class AdMobManager {
+final class AdMobManager {
   
   
   // MARK: - Properties

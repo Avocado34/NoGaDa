@@ -1,11 +1,12 @@
 //
-//  UIbutton+Padding.swift
+//  UIButton+Padding.swift
 //  NoGaDa
 //
 //  Created by 이승기 on 2022/05/08.
 //
 
 import UIKit
+
 
 extension UIButton {
   func setPadding(width: CGFloat) {

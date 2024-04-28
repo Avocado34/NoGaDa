@@ -11,6 +11,7 @@ import RealmSwift
 import RxSwift
 import RxCocoa
 
+
 enum SongFolderManagerError: String, Error {
   case alreadyExists = "file already exists on Realm"
 }

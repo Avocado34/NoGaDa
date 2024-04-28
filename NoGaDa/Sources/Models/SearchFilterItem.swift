@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 protocol SearchFilterItem {
   var title: String { get }
   var state: Bool { get }

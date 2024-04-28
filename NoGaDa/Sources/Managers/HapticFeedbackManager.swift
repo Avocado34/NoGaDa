@@ -5,10 +5,10 @@
 //  Created by 이승기 on 2022/03/06.
 //
 
-import Foundation
 import UIKit
 
-class HapticFeedbackManager { }
+
+final class HapticFeedbackManager { }
 
 // MARK: - Notification Feedback
 extension HapticFeedbackManager {

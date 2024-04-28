@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 extension UITextField {
   func setPlaceholderColor(_ color: UIColor) {
     guard let placeholder = self.placeholder else { return }

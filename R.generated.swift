@@ -52,7 +52,7 @@ struct _R {
   }
 
   struct project {
-    let developmentRegion = "en"
+    let developmentRegion = "ko"
   }
 
   /// This `_R.string` struct is generated, and contains static references to 3 localization tables.
@@ -79,12 +79,12 @@ struct _R {
     struct infoPlist {
       let source: RswiftResources.StringResource.Source
 
-      /// en translation: NoGaDa
+      /// ko translation: 노가다
       ///
       /// Key: CFBundleDisplayName
       ///
-      /// Locales: ko, en
-      var cfBundleDisplayName: RswiftResources.StringResource { .init(key: "CFBundleDisplayName", tableName: "InfoPlist", source: source, developmentValue: "NoGaDa", comment: nil) }
+      /// Locales: ko
+      var cfBundleDisplayName: RswiftResources.StringResource { .init(key: "CFBundleDisplayName", tableName: "InfoPlist", source: source, developmentValue: "노가다", comment: nil) }
     }
 
     /// This `_R.string.launchScreen` struct is generated, and contains static references to 0 localization keys.
@@ -101,224 +101,224 @@ struct _R {
       /// Key: 4Jq-qh-3mw.text
       ///
       /// Locales: ko
-      var jqQh3mwText: RswiftResources.StringResource { .init(key: "4Jq-qh-3mw.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var jqQh3mwText: RswiftResources.StringResource { .init(key: "4Jq-qh-3mw.text", tableName: "Main", source: source, developmentValue: "제목이나 가수명으로 노래를 검색하세요", comment: nil) }
 
       /// ko translation: Contact us
       ///
       /// Key: 6P6-Kw-gij.text
       ///
       /// Locales: ko
-      var p6KwGijText: RswiftResources.StringResource { .init(key: "6P6-Kw-gij.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var p6KwGijText: RswiftResources.StringResource { .init(key: "6P6-Kw-gij.text", tableName: "Main", source: source, developmentValue: "Contact us", comment: nil) }
 
       /// ko translation: 폴더 이름
       ///
       /// Key: 7w4-j5-IR6.placeholder
       ///
       /// Locales: ko
-      var w4J5IR6Placeholder: RswiftResources.StringResource { .init(key: "7w4-j5-IR6.placeholder", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var w4J5IR6Placeholder: RswiftResources.StringResource { .init(key: "7w4-j5-IR6.placeholder", tableName: "Main", source: source, developmentValue: "폴더 이름", comment: nil) }
 
       /// ko translation: 새 폴더
       ///
       /// Key: C4h-cQ-6N2.text
       ///
       /// Locales: ko
-      var c4hCQ6N2Text: RswiftResources.StringResource { .init(key: "C4h-cQ-6N2.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var c4hCQ6N2Text: RswiftResources.StringResource { .init(key: "C4h-cQ-6N2.text", tableName: "Main", source: source, developmentValue: "새 폴더", comment: nil) }
 
       /// ko translation: + 새 폴더 생성
       ///
       /// Key: Cbk-yG-6kt.normalTitle
       ///
       /// Locales: ko
-      var cbkYG6ktNormalTitle: RswiftResources.StringResource { .init(key: "Cbk-yG-6kt.normalTitle", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var cbkYG6ktNormalTitle: RswiftResources.StringResource { .init(key: "Cbk-yG-6kt.normalTitle", tableName: "Main", source: source, developmentValue: "+ 새 폴더 생성", comment: nil) }
 
       /// ko translation: 😀
       ///
       /// Key: Cpu-J9-uYf.text
       ///
       /// Locales: ko
-      var cpuJ9UYfText: RswiftResources.StringResource { .init(key: "Cpu-J9-uYf.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var cpuJ9UYfText: RswiftResources.StringResource { .init(key: "Cpu-J9-uYf.text", tableName: "Main", source: source, developmentValue: "😀", comment: nil) }
 
       /// ko translation: 오류가 발생했습니다.
       ///
       /// Key: CxZ-Cq-9Qe.text
       ///
       /// Locales: ko
-      var cxZCq9QeText: RswiftResources.StringResource { .init(key: "CxZ-Cq-9Qe.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var cxZCq9QeText: RswiftResources.StringResource { .init(key: "CxZ-Cq-9Qe.text", tableName: "Main", source: source, developmentValue: "오류가 발생했습니다.", comment: nil) }
 
       /// ko translation: 노래방 가서 다 부를거야!
       ///
       /// Key: DLU-ju-7zi.text
       ///
       /// Locales: ko
-      var dluJu7ziText: RswiftResources.StringResource { .init(key: "DLU-ju-7zi.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var dluJu7ziText: RswiftResources.StringResource { .init(key: "DLU-ju-7zi.text", tableName: "Main", source: source, developmentValue: "노래방 가서 다 부를거야!", comment: nil) }
 
       /// ko translation: tj
       ///
       /// Key: HWm-DX-mxj.segmentTitles[0]
       ///
       /// Locales: ko
-      var hWmDXMxjSegmentTitles0: RswiftResources.StringResource { .init(key: "HWm-DX-mxj.segmentTitles[0]", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var hWmDXMxjSegmentTitles0: RswiftResources.StringResource { .init(key: "HWm-DX-mxj.segmentTitles[0]", tableName: "Main", source: source, developmentValue: "tj", comment: nil) }
 
       /// ko translation: 금영
       ///
       /// Key: HWm-DX-mxj.segmentTitles[1]
       ///
       /// Locales: ko
-      var hWmDXMxjSegmentTitles1: RswiftResources.StringResource { .init(key: "HWm-DX-mxj.segmentTitles[1]", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var hWmDXMxjSegmentTitles1: RswiftResources.StringResource { .init(key: "HWm-DX-mxj.segmentTitles[1]", tableName: "Main", source: source, developmentValue: "금영", comment: nil) }
 
       /// ko translation: 제목이나 가수명으로 노래를 검색하세요
       ///
       /// Key: I1L-Kc-4uI.placeholder
       ///
       /// Locales: ko
-      var i1LKc4uIPlaceholder: RswiftResources.StringResource { .init(key: "I1L-Kc-4uI.placeholder", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var i1LKc4uIPlaceholder: RswiftResources.StringResource { .init(key: "I1L-Kc-4uI.placeholder", tableName: "Main", source: source, developmentValue: "제목이나 가수명으로 노래를 검색하세요", comment: nil) }
 
       /// ko translation: 총 --곡
       ///
       /// Key: I8f-kb-mSm.text
       ///
       /// Locales: ko
-      var i8fKbMSmText: RswiftResources.StringResource { .init(key: "I8f-kb-mSm.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var i8fKbMSmText: RswiftResources.StringResource { .init(key: "I8f-kb-mSm.text", tableName: "Main", source: source, developmentValue: "총 --곡", comment: nil) }
 
       /// ko translation: Credit
       ///
       /// Key: J4O-zs-k0K.text
       ///
       /// Locales: ko
-      var j4OZsK0KText: RswiftResources.StringResource { .init(key: "J4O-zs-k0K.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var j4OZsK0KText: RswiftResources.StringResource { .init(key: "J4O-zs-k0K.text", tableName: "Main", source: source, developmentValue: "Credit", comment: nil) }
 
       /// ko translation: 적용
       ///
       /// Key: KXr-bc-Zdo.normalTitle
       ///
       /// Locales: ko
-      var kXrBcZdoNormalTitle: RswiftResources.StringResource { .init(key: "KXr-bc-Zdo.normalTitle", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var kXrBcZdoNormalTitle: RswiftResources.StringResource { .init(key: "KXr-bc-Zdo.normalTitle", tableName: "Main", source: source, developmentValue: "적용", comment: nil) }
 
       /// ko translation: Setting
       ///
       /// Key: M4g-7J-YGo.text
       ///
       /// Locales: ko
-      var m4g7JYGoText: RswiftResources.StringResource { .init(key: "M4g-7J-YGo.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var m4g7JYGoText: RswiftResources.StringResource { .init(key: "M4g-7J-YGo.text", tableName: "Main", source: source, developmentValue: "Setting", comment: nil) }
 
       /// ko translation: 기타
       ///
       /// Key: SVo-nP-6mw.text
       ///
       /// Locales: ko
-      var sVoNP6mwText: RswiftResources.StringResource { .init(key: "SVo-nP-6mw.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var sVoNP6mwText: RswiftResources.StringResource { .init(key: "SVo-nP-6mw.text", tableName: "Main", source: source, developmentValue: "기타", comment: nil) }
 
       /// ko translation: 보관함
       ///
       /// Key: UOS-9k-ADV.text
       ///
       /// Locales: ko
-      var uos9kADVText: RswiftResources.StringResource { .init(key: "UOS-9k-ADV.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var uos9kADVText: RswiftResources.StringResource { .init(key: "UOS-9k-ADV.text", tableName: "Main", source: source, developmentValue: "보관함", comment: nil) }
 
       /// ko translation: 노래방 가서 부르고 싶은 노래
       ///
       /// Key: VpG-sO-j57.text
       ///
       /// Locales: ko
-      var vpGSOJ57Text: RswiftResources.StringResource { .init(key: "VpG-sO-j57.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var vpGSOJ57Text: RswiftResources.StringResource { .init(key: "VpG-sO-j57.text", tableName: "Main", source: source, developmentValue: "노래방 가서 부르고 싶은 노래", comment: nil) }
 
       /// ko translation: 보관함 바로가기
       ///
       /// Key: Ysc-M8-Y7u.text
       ///
       /// Locales: ko
-      var yscM8Y7uText: RswiftResources.StringResource { .init(key: "Ysc-M8-Y7u.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var yscM8Y7uText: RswiftResources.StringResource { .init(key: "Ysc-M8-Y7u.text", tableName: "Main", source: source, developmentValue: "보관함 바로가기", comment: nil) }
 
       /// ko translation: 보관함
       ///
       /// Key: asG-Yn-m5w.text
       ///
       /// Locales: ko
-      var asGYnM5wText: RswiftResources.StringResource { .init(key: "asG-Yn-m5w.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var asGYnM5wText: RswiftResources.StringResource { .init(key: "asG-Yn-m5w.text", tableName: "Main", source: source, developmentValue: "보관함", comment: nil) }
 
       /// ko translation: + 새 폴더 생성
       ///
       /// Key: bTv-E6-Q0q.normalTitle
       ///
       /// Locales: ko
-      var bTvE6Q0qNormalTitle: RswiftResources.StringResource { .init(key: "bTv-E6-Q0q.normalTitle", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var bTvE6Q0qNormalTitle: RswiftResources.StringResource { .init(key: "bTv-E6-Q0q.normalTitle", tableName: "Main", source: source, developmentValue: "+ 새 폴더 생성", comment: nil) }
 
       /// ko translation: 노래 검색
       ///
       /// Key: cQ5-Pr-b1K.text
       ///
       /// Locales: ko
-      var cQ5PrB1KText: RswiftResources.StringResource { .init(key: "cQ5-Pr-b1K.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var cQ5PrB1KText: RswiftResources.StringResource { .init(key: "cQ5-Pr-b1K.text", tableName: "Main", source: source, developmentValue: "노래 검색", comment: nil) }
 
       /// ko translation: Main
       ///
       /// Key: dBf-gf-Im0.title
       ///
       /// Locales: ko
-      var dBfGfIm0Title: RswiftResources.StringResource { .init(key: "dBf-gf-Im0.title", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var dBfGfIm0Title: RswiftResources.StringResource { .init(key: "dBf-gf-Im0.title", tableName: "Main", source: source, developmentValue: "Main", comment: nil) }
 
       /// ko translation: 확인
       ///
       /// Key: fSo-Bc-Q9v.normalTitle
       ///
       /// Locales: ko
-      var fSoBcQ9vNormalTitle: RswiftResources.StringResource { .init(key: "fSo-Bc-Q9v.normalTitle", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var fSoBcQ9vNormalTitle: RswiftResources.StringResource { .init(key: "fSo-Bc-Q9v.normalTitle", tableName: "Main", source: source, developmentValue: "확인", comment: nil) }
 
       /// ko translation: Developer : Lee Seunggi Ui/Ux Design: Lee Seunggi Contact : avocado34.131@gmail.com   Api Contributor : Yun KwangSeon Contact : middleyks@hanmail.net
       ///
       /// Key: gjp-Oi-p6X.text
       ///
       /// Locales: ko
-      var gjpOiP6XText: RswiftResources.StringResource { .init(key: "gjp-Oi-p6X.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var gjpOiP6XText: RswiftResources.StringResource { .init(key: "gjp-Oi-p6X.text", tableName: "Main", source: source, developmentValue: "Developer : Lee Seunggi\nUi/Ux Design: Lee Seunggi\nContact : avocado34.131@gmail.com\n\n\nApi Contributor : Yun KwangSeon\nContact : middleyks@hanmail.net", comment: nil) }
 
       /// ko translation: Used resources
       ///
       /// Key: hgy-DL-w7S.text
       ///
       /// Locales: ko
-      var hgyDLW7SText: RswiftResources.StringResource { .init(key: "hgy-DL-w7S.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var hgyDLW7SText: RswiftResources.StringResource { .init(key: "hgy-DL-w7S.text", tableName: "Main", source: source, developmentValue: "Used resources", comment: nil) }
 
       /// ko translation: 검색필터
       ///
       /// Key: hkW-sj-9w7.text
       ///
       /// Locales: ko
-      var hkWSj9w7Text: RswiftResources.StringResource { .init(key: "hkW-sj-9w7.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var hkWSj9w7Text: RswiftResources.StringResource { .init(key: "hkW-sj-9w7.text", tableName: "Main", source: source, developmentValue: "검색필터", comment: nil) }
 
       /// ko translation: 노래 검색
       ///
       /// Key: lvi-2L-p6a.title
       ///
       /// Locales: ko
-      var lvi2LP6aTitle: RswiftResources.StringResource { .init(key: "lvi-2L-p6a.title", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var lvi2LP6aTitle: RswiftResources.StringResource { .init(key: "lvi-2L-p6a.title", tableName: "Main", source: source, developmentValue: "노래 검색", comment: nil) }
 
       /// ko translation: 검색 결과가 없습니다.
       ///
       /// Key: nd8-5P-dIH.text
       ///
       /// Locales: ko
-      var nd85PDIHText: RswiftResources.StringResource { .init(key: "nd8-5P-dIH.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var nd85PDIHText: RswiftResources.StringResource { .init(key: "nd8-5P-dIH.text", tableName: "Main", source: source, developmentValue: "검색 결과가 없습니다.", comment: nil) }
 
       /// ko translation: 노가다 노래방 가서 다 부를거야  version 1.0.0
       ///
       /// Key: skd-ZX-9Km.text
       ///
       /// Locales: ko
-      var skdZX9KmText: RswiftResources.StringResource { .init(key: "skd-ZX-9Km.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var skdZX9KmText: RswiftResources.StringResource { .init(key: "skd-ZX-9Km.text", tableName: "Main", source: source, developmentValue: "노가다 노래방 가서 다 부를거야  version 1.0.0", comment: nil) }
 
       /// ko translation: Copyright © LeeSeunggi All Right Reserved
       ///
       /// Key: suC-8F-fRQ.text
       ///
       /// Locales: ko
-      var suC8FFRQText: RswiftResources.StringResource { .init(key: "suC-8F-fRQ.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var suC8FFRQText: RswiftResources.StringResource { .init(key: "suC-8F-fRQ.text", tableName: "Main", source: source, developmentValue: "Copyright © LeeSeunggi All Right Reserved", comment: nil) }
 
       /// ko translation: 😃
       ///
       /// Key: zbA-aj-vX6.text
       ///
       /// Locales: ko
-      var zbAAjVX6Text: RswiftResources.StringResource { .init(key: "zbA-aj-vX6.text", tableName: "Main", source: source, developmentValue: nil, comment: nil) }
+      var zbAAjVX6Text: RswiftResources.StringResource { .init(key: "zbA-aj-vX6.text", tableName: "Main", source: source, developmentValue: "😃", comment: nil) }
     }
   }
 

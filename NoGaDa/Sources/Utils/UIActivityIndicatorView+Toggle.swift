@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 extension UIActivityIndicatorView {
   func startAnimatingAndShow() {
     self.startAnimating()

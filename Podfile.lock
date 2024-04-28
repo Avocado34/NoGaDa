@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.8.0)
   - BISegmentedControl (0.1.1)
   - FloatingPanel (2.6.1)
   - Google-Mobile-Ads-SDK (10.5.0):
@@ -50,11 +51,11 @@ PODS:
   - nanopb/encode (2.30909.0)
   - PromisesObjC (2.2.0)
   - R.swift (7.2.4)
-  - Realm (10.39.1):
-    - Realm/Headers (= 10.39.1)
-  - Realm/Headers (10.39.1)
-  - RealmSwift (10.39.1):
-    - Realm (= 10.39.1)
+  - Realm (10.42.4):
+    - Realm/Headers (= 10.42.4)
+  - Realm/Headers (10.42.4)
+  - RealmSwift (10.42.4):
+    - Realm (= 10.42.4)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -68,12 +69,13 @@ PODS:
   - SwiftRater (2.1.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 5.8.0)
   - BISegmentedControl (~> 0.1.1)
   - FloatingPanel (~> 2.6.0)
   - Google-Mobile-Ads-SDK
   - Hero (~> 1.6.2)
-  - R.swift (~> 7.2.4)
-  - RealmSwift
+  - R.swift
+  - RealmSwift (= 10.42.4)
   - RxCocoa (~> 6.5.0)
   - RxGesture (~> 4.0.4)
   - RxSwift (~> 6.5.0)
@@ -82,6 +84,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - BISegmentedControl
     - FloatingPanel
     - Google-Mobile-Ads-SDK
@@ -102,6 +105,7 @@ SPEC REPOS:
     - SwiftRater
 
 SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
   BISegmentedControl: 748dca74da5dd62039176c8fec2c372161d89916
   FloatingPanel: de6bb891912ede28da7b1140f7b583c474fec28a
   Google-Mobile-Ads-SDK: d4846d2d9bfe840ad7444078b5f9f565032bd4c2
@@ -112,8 +116,8 @@ SPEC CHECKSUMS:
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
   R.swift: 681bb9135f482e7a81d9d27445b837fef5467e11
-  Realm: 1f3157edf145f4d9036765ab550c8cb18f62b700
-  RealmSwift: 8a69a1cb788cd5865966f49667b130567e07bceb
+  Realm: a3a10c2110744ec9510a5fc21a6051818c6181c7
+  RealmSwift: d25fa6c3cbb722a698993a501206d9841d79ca32
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
@@ -121,6 +125,6 @@ SPEC CHECKSUMS:
   SafeAreaBrush: 282315ce500e436c04b2c26b46e8ac0ad4288bbd
   SwiftRater: bb8caf402fe466c8f93b53a902cc24a4eb68acec
 
-PODFILE CHECKSUM: 15f6b40fc5e6d94028ffd86ee6aeb0113ae155be
+PODFILE CHECKSUM: 88b7704717e36bb63d3472b1c710d46a17897fac
 
 COCOAPODS: 1.12.1

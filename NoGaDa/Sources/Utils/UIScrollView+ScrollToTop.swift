@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 extension UITableView {
   func scrollToTopCell(animated: Bool) {
     let indexPath = IndexPath(row: 0, section: 0)

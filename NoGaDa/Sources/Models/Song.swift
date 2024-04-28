@@ -7,7 +7,8 @@
 
 import UIKit
 
-struct Song: Equatable, Codable, Hashable {
+
+struct Song: Equatable, Decodable, Hashable {
   let brand:      KaraokeBrand
   let no:         String
   let title:      String

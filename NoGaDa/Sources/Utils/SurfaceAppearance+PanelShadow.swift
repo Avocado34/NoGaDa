@@ -7,6 +7,7 @@
 
 import FloatingPanel
 
+
 extension SurfaceAppearance {
   func setPanelShadow(color: UIColor) {
     let shadow = SurfaceAppearance.Shadow()

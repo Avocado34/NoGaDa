@@ -1,5 +1,5 @@
 //
-//  AppbarHeight.swift
+//  AppBarHeight.swift
 //  NoGaDa
 //
 //  Created by 이승기 on 2022/06/14.
@@ -7,7 +7,8 @@
 
 import UIKit
 
-class AppBarHeight {
+
+final class AppBarHeight {
   static var compactAppBarHeight: CGFloat {
     return safeAreaTop + 80
   }

@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 extension UILabel {
   func setAccentColor(string: String) {
     guard let text = self.text else { return }

@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 enum DefaultsKey: String {
   case launchCount = "com.app.launchcount"
   

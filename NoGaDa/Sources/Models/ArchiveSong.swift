@@ -5,10 +5,13 @@
 //  Created by 이승기 on 2021/09/23.
 //
 
-import UIKit
 import RealmSwift
 
-class ArchiveSong: Object {
+
+final class ArchiveSong: Object {
+  
+  // MARK: - Properties
+  
   @objc dynamic var id:           String = UUID().uuidString
   @objc dynamic var no:           String = ""
   @objc dynamic var title:        String = ""
@@ -18,9 +21,11 @@ class ArchiveSong: Object {
   @objc dynamic var lyricists:    String = ""
   @objc dynamic var releaseDate:  String = ""
   
+  
+  // MARK: - Initializers
+  
   convenience init(no: String, title: String, singer: String, brand: String, composer: String, lyricists: String, releaseDate: String) {
     self.init()
-    
     self.no             = no
     self.title          = title
     self.singer         = singer
@@ -30,6 +35,9 @@ class ArchiveSong: Object {
     self.releaseDate    = releaseDate
   }
   
+  
+  // MARK: - Methods
+  
   override class func primaryKey() -> String? {
     return "id"
   }
@@ -37,10 +45,8 @@ class ArchiveSong: Object {
   override class func indexedProperties() -> [String] {
     return ["id", "no", "title", "singer", "brand", "composer", "lyricists", "release"]
   }
-}
-
-extension ArchiveSong {
-  func asSongType() -> Song {
+  
+  public func asSongType() -> Song {
     let song = Song(brand: KaraokeBrand(rawValue: brand) ?? .tj, no: no, title: title, singer: singer, composer: composer, lyricist: lyricists, release: releaseDate)
     
     return song

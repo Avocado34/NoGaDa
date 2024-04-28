@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 public extension IntegerLiteralType {
   var f: CGFloat {
     return CGFloat(self)

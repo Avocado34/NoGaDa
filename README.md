@@ -1,53 +1,36 @@
 <br>
 <div align="center">
- <img src="https://user-images.githubusercontent.com/63496607/145188343-0bb2b12c-4730-4f99-a9ee-7d036a3736f6.png" width="100">
- <h1>노가다 - 노래방 가서 다 부를거야!</h1>
+ <img src=https://github.com/WallabyStuff/NoGaDa/assets/63496607/298e7e7a-22d6-4ddd-859e-9d3abdba3009 width="100">
 </div>
 
 
 <br><br>
-![Preview image](https://user-images.githubusercontent.com/63496607/145188498-1bd10f05-a5af-4aeb-becb-7ae61b230352.png)
+![Preview images](https://github.com/WallabyStuff/NoGaDa/assets/63496607/aeb71ce7-fddf-4aca-8f38-83c8143dcfbf)
+<a href="https://apps.apple.com/kr/app/%EB%85%B8%EA%B0%80%EB%8B%A4-%EB%85%B8%EB%9E%98%EB%B0%A9-%EA%B0%80%EC%84%9C-%EB%8B%A4-%EB%B6%80%EB%A5%BC%EA%B1%B0%EC%95%BC-%EB%85%B8%EB%9E%98%EA%B2%80%EC%83%89-%EC%A0%80%EC%9E%A5/id1588373483?l=en-GB" target="_blank">
+  <img src="https://github.com/WallabyStuff/NoGaDa/assets/63496607/8ae76810-9033-4f83-91e4-ee6c2b28f670" width="200">
+</a>
+
+<br>
 
 
-<br><br>
-## 🤔 Why I made this
-
-친구랑 노래방에 가서 노래를 불렀다. 그리고 우린 우연찮게 공통적인 고민을 하고 있다는 것을 알게 되었다. 
-
-"아니 평소에 그렇게 노래 들으면서 부르고 싶은 노래가 많았는데 왜 노래방만 오면 부를 노래가 생각이 나지 않는거지?" 우리 둘 뿐만이 아니라 다른 친구들도 비슷한 고민을 하고 있다는 것을 발견했다.
-
- 그래서 나는 평소에 노래를 듣다가 "아! 이거 노래방 가면 불러봐야지" 생각하게 되는 노래가 있으면 메모장에 따로 적어두기 시작했다. 근데 여기에서 문제점은 그 노래가 노래방에 있는지 없는지 여부를 모른다는 것이였다.
-
-그래서 tj노래방 사이트에 접속해서 그 노래가 있는지 검색하고 있으면 메모장에 적어두고 이런식이였다.
-
-나는 이것이 꽤나 불편하다고 느끼고 이런 번거로운 작업을 줄여주도록 tj 및 금영 노래방 노래를 검색하고 폴더를 만들어 음악 재생 앱에서 카테고리 별로 분류해서 저장하듯이 만들면 어떨까 하는 생각에 만들기 시작했다.
-
-<br><br>
-## 💡 Trouble shooting
-
-- [Custom Segmented Control](https://www.notion.so/Custom-segmented-control-a9fb45beb3184d26a26a4cfa0714ef80) <br>
+# 프로젝트 소개
+### 노래방에서 "음.. 뭐부르지.." 고민은 이제 그만!
 
 
-<br><br>
-## 🛍 Download 
+| <img src="https://github.com/WallabyStuff/NoGaDa/assets/63496607/5862043e-d337-4d0e-8d38-3adddbf91c54" >| <img src="https://github.com/WallabyStuff/NoGaDa/assets/63496607/0dc62918-48c3-4235-b7ca-9a5eb16bc8a9" >|<img src="https://github.com/WallabyStuff/NoGaDa/assets/63496607/c93b5b90-33cb-41fe-bcf8-674e0a41a8bb" >| <img src="https://github.com/WallabyStuff/NoGaDa/assets/63496607/9c1bb0cd-2bf9-45e3-9b7b-157f7e8b08fd2" >|
+|---|---|---|---|
 
-- [Appstore](https://apps.apple.com/kr/app/%EB%85%B8%EA%B0%80%EB%8B%A4-%EB%85%B8%EB%9E%98%EB%B0%A9-%EA%B0%80%EC%84%9C-%EB%8B%A4-%EB%B6%80%EB%A5%BC%EA%B1%B0%EC%95%BC-%EB%85%B8%EB%9E%98%EA%B2%80%EC%83%89-%EC%A0%80%EC%9E%A5/id1588373483?l=en)
 
-<br><br>
-## 🛠 Used Tools
+<br>
+<br>
 
-- **Appicon** - figma
-- **Design** - figma
-- **Script** - Xcode12(swift / storyboard)
-- **Preview Images** - figma
+# 주요 기능  
 
-<br><br>
-## 🥥 Pods
+## 1️⃣ 부르고 싶은 노래를 검색해요! 실제 노래방에 등록되어있는 노래들을 바탕으로 결과를 보여줘요.
+* 필터를 적용시켜서 원하는 노래를 빠르게 찾을 수 있어요.
+* 부르고 싶은 노래를 폴더별로 정리해서 저장해 보아요!
+* 등록되지 않는 노래는 직첩 추가해볼 수도 있어요!
 
-- [RxSwift](https://cocoapods.org/pods/RxSwift)
-- [RxCocoa](https://cocoapods.org/pods/RxCocoa)
-- [RxGesture](https://cocoapods.org/pods/RxGesture)
-- [Hero](https://cocoapods.org/pods/Hero)
-- [FloatingPanel](https://cocoapods.org/pods/FloatingPanel)
-- [RealmSwift](https://cocoapods.org/pods/RealmSwift)
 
+| <img src="https://github.com/WallabyStuff/NoGaDa/assets/63496607/83f0aa81-c659-4879-afcc-8142cbe53689" width="300">|<img src="https://github.com/WallabyStuff/NoGaDa/assets/63496607/89b93b21-bf8c-44cc-b336-603b3914060b" width="300" >|<img src="https://github.com/WallabyStuff/NoGaDa/assets/63496607/8ff7dd3e-b8d0-4c49-a49b-3cf204498290" width="300">|
+|---|---|---|

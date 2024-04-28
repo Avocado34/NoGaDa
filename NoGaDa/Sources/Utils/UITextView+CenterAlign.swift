@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 extension UITextView {
   func centerVertically() {
     let fittingSize = CGSize(width: bounds.width, height: CGFloat.greatestFiniteMagnitude)

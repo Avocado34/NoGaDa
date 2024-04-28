@@ -6,11 +6,14 @@
 //
 
 import UIKit
+
 import RealmSwift
+
 import RxSwift
 import RxCocoa
 
-class SearchHistoryManager {
+
+final class SearchHistoryManager {
   public func addData(searchKeyword: String) -> Completable {
     return Completable.create { observer in
       do {
