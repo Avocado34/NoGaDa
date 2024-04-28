@@ -10,7 +10,12 @@ import UIKit
 
 enum KaraokeBrand: String, Decodable, CaseIterable {
   case tj       = "tj"
-  case kumyoung = "kumyoung"
+  case kumyoung = "금영"
+  
+  enum CodingKeys: String, CodingKey {
+    case tj
+    case kumyoung = "kumyoung"
+  }
   
   
   // MARK: - Properties
